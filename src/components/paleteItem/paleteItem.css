@@ -1,0 +1,82 @@
+.item{
+    position: relative;
+}
+
+.palete{
+    max-width: 100%;
+    padding-bottom: 100%;
+    border-radius: 54px;
+    position: relative;
+    display: block;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+
+.place{
+    position: absolute;
+    width: 100%;
+    transform-origin: top;
+    background: grey;
+    background-color: grey;
+    text-align: left;
+    border-radius: 20px 20px 0 0;
+}
+
+.c3{
+    padding-bottom: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.c2{
+    padding-bottom: 75%;
+    transition: 0.3 ease;
+    transition-duration: 0.5s;
+}
+
+.c2:hover{
+    padding-bottom: 85%;
+}
+
+.c1{
+    padding-bottom: 50%;
+    transition: 0.3 ease;
+    transition-duration: 0.5s;
+}
+
+.c1:hover{
+    padding-bottom: 60%;
+}
+
+.c0{
+    padding-bottom: 25%;
+    transition: 0.3 ease;
+    transition-duration: 0.5s;
+    border-radius: 10px 10px 0 0;
+}
+
+.c0:hover{
+    padding-bottom: 35%;
+}
+
+.place span {
+    display: block;
+    width: 100%;
+    padding: 10%;
+    position: absolute;
+    text-align: center;
+    transition: all .2s;
+    bottom: 0;
+    color: #fff;
+    opacity: 1;
+    border-radius: 0 6px 0 0;
+    cursor: pointer;
+    overflow: hidden;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+  }
+
+.place span:hover{
+    opacity: 1;
+    background: #00000024;
+    
+}

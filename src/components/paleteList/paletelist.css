@@ -1,0 +1,16 @@
+.page{
+    width: 100%;
+    max-width: 1500px;
+    box-sizing:border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.color__container{
+    padding: 50px 20px 30px;
+    display: grid;
+    margin-top: -4px;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-column-gap: 4%;
+    grid-row-gap: 30px;
+}
